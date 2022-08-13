@@ -2,7 +2,6 @@
     const formulario = document.getElementById('formulario'),
 		nombre = formulario.nombre,
 		correo = formulario.correo,
-		sexo = formulario.sexo,
 		terminos = formulario.terminos,
 		error = document.getElementById('error');
 
@@ -17,6 +16,7 @@
 			error.style.display = 'none';
 		}
 	}
+
 
 	function validarCorreo(e){
 		if (correo.value == '' || correo.value == null){
@@ -53,8 +53,11 @@
 
 		const nombre = document.querySelector("#nombre").value
 		const email = document.querySelector("#email").value
+		
 		console.log(nombre)
-		console.log(email)
+		console.log(email)	
+
+
 	}
 
 	formulario.addEventListener('submit', validarForm);

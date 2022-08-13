@@ -7,10 +7,14 @@ var url = 'https://rickandmortyapi.com/api/character';
                 json.results.map(function(results) {
                     console.log(json)
                     container.innerHTML+=`
+                    <tr>
+
                         <div> <img src= `+ results.image +`> </div>
-                        <div> `+ results.id +`  </div>
-                        <div> `+ results.name +` </div>
-                        <div> `+ results.species +` </div>
+                        <h2> `+ results.id +`  </h2>
+                        <h3> `+ results.name +` </h3>
+                        <h4> `+ results.species +` </h4>
+
+                     </tr>   
                     `
                 })
                 

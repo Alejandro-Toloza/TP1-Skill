@@ -1,3 +1,3 @@
 function redirection2(){
-    location.href = "rickyandmorty.html"
+    location.href = "rickandmorty.html"
 }

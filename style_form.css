@@ -12,10 +12,13 @@ body {
 	font-size: 18px;
 }
 
+
 .contenedor {
 	width: 400px;
 	/*margin: 40px auto;*/
 	margin: 40px;
+	margin-left: 400px;
+	
 }
 
 .formulario .contenedor-inputs{
